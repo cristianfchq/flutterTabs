@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tabs/tabs/acercade_tabs.dart';
 import 'package:flutter_tabs/tabs/inicio_tabs.dart';
 import 'package:flutter_tabs/tabs/lugares_tabs.dart';
 import 'package:flutter_tabs/tabs/resistro_tabs.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
             inicioTabs(),
             registroTabs(),
             lugaresTabs(),
-            inicioTabs(),
+            acercadeTabs(),
           ],
         ),
       ),
