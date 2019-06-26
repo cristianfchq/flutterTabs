@@ -39,7 +39,10 @@ class MyApp extends StatelessWidget {
         //
         body: TabBarView(
           children: <Widget>[
-            inicioTabs(),
+            new inicioTabs(),
+            new inicioTabs(),
+            new inicioTabs(),
+            new inicioTabs(),
           ],
         ),
       ),
