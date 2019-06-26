@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class inicioTabs extends StatelessWidget {
+class lugaresTabs extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,7 +14,7 @@ class inicioTabs extends StatelessWidget {
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(
-                  'assets/images/205.jpg'
+                  'assets/images/50F.jpg'
                 ),
                 fit: BoxFit.cover,
               ),
@@ -38,7 +38,7 @@ class inicioTabs extends StatelessWidget {
               onPressed: (){
                 Scaffold
                 .of(context)
-                .showSnackBar(SnackBar(content: Text('Estamos en el Tab Inicio'),));
+                .showSnackBar(SnackBar(content: Text('Estamos en el Tab Lugares'),));
               },
               child: Text("Presiona Aqui"),
             ),
