@@ -8,17 +8,25 @@ class inicioTabs extends StatelessWidget {
         children: <Widget>[
           //agregamos imagen
           Container(
-            margin: const EdgeInsets.all(10.0),
-            width: 400,
-            height: 200,
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage(
-                  'assets/images/205.jpg'
+            //margin: const EdgeInsets.all(10.0),
+            //width: 400,
+            //height: 200,
+            child: Center(
+              child: Container(
+                margin: const EdgeInsets.all(10.0),
+                width: 400,
+                height: 600,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage(
+                      'assets/images/205.jpg'
+                    ),
+                  fit: BoxFit.cover,
+                  ),
                 ),
-                fit: BoxFit.cover,
               ),
             ),
+            
           ),
           //agregamos un botton con una accion
           Container(
